@@ -9,6 +9,7 @@ body {
   height: 100vh;
   display: flex;
   margin: 0;
+  background-color: #f8f8f8;
 }
 ul {
   list-style: none;
@@ -28,8 +29,10 @@ ul {
   z-index: -1;
   opacity: 0.01;
 }
+
 @import url(./header.scss);
 @import url(./servise.scss);
 @import url(./main.scss);
 @import url(./burgerRight.scss);
 @import url(./swiper-bundle.min.scss);
+@import url(./swip.scss);

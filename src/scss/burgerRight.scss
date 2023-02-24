@@ -1,12 +1,13 @@
 .burger-menu {
+  height: 1925px !important;
   width: 306px;
+  background-color: #f2f2f2;
 }
 
 .burger-menu {
   box-sizing: border-box;
   height: 100%;
   width: 320px;
-  overflow-y: auto;
   box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02),
     16px 0px 52px rgba(14, 24, 80, 0.2);
 }

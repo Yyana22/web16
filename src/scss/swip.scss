@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+}
+
+.block15 {
+  background: #f8f8f8;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.block15__title {
+  padding: 16px;
+  height: 48px;
+  font-family: 'TT Lakes';
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  color: #7e7e82;
+  margin-bottom: 16px;
+}
+
+.swiper {
+  padding-bottom: 40px;
+  padding-top: 24px;
+  margin-left: 16px;
+}
+
+.swiper-wrapper.list__hidden {
+  height: 130px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  box-sizing: border-box;
+  width: 240px;
+  height: 72px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last-card {
+  display: flex;
+  width: 224px;
+  height: 72px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.card__logo {
+  margin-left: 16px;
+}
+.card__go {
+  position: absolute;
+  right: 16px;
+  margin: 20px 0px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+
+.block15__shadow {
+  height: 81px;
+  position: absolute;
+  width: 100px;
+  right: 0%;
+  top: 16px;
+  z-index: 100;
+  background: linear-gradient(
+    270deg,
+    #f8f8f8 16.84%,
+    rgba(248, 248, 248, 0.01) 100%
+  );
+}
+
+.swiper-pagination .swiper-pagination {
+  top: 100px;
+  position: absolute;
+  z-index: 10;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: #dddddd;
+  margin-right: 12px;
+  margin-top: 12px;
+  opacity: 1;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #b5b6bc;
+  opacity: 1;
+}
+
+.show-more {
+  display: none;
+}
+
+.last-cards {
+  display: flex;
+  margin-top: 88px;
+  padding: 16px;
+}
+
+@media (max-width: 767px) {
+  .card--hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+  .repair-brands__title {
+    padding: 16px 16px;
+  }
+  .block15__shadow {
+    display: none;
+  }
+  .block15__title {
+    height: 56px;
+    padding: 16px;
+  }
+
+  .swiper {
+    height: 340px;
+    transition: all ease-in-out 400ms;
+  }
+
+  .swiper2 {
+    height: 710px;
+    transition: all ease-in-out 400ms;
+  }
+
+  .swiper2.list__hidden2 {
+    height: 125px;
+  }
+  .list__hidden {
+    height: 134px;
+  }
+
+  .swiper-wrapper {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    gap: 24px;
+  }
+
+  .swiper-wrapper2 {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    gap: 24px;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  .show-more {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 8px 39px 16px;
+    transition: all ease-in-out 1s;
+  }
+
+  .show-less__icon {
+    margin-right: 16px;
+    transform: rotate(180deg);
+    transition: all ease-in-out 300ms;
+  }
+
+  .show-more__icon {
+    margin-right: 16px;
+    transform: rotate(0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .show-less__icon2 {
+    margin-right: 16px;
+    transform: rotate(180deg);
+    transition: all ease-in-out 300ms;
+  }
+
+  .show-more__icon2 {
+    margin-right: 16px;
+    transform: rotate(0);
+    transition: all ease-in-out 300ms;
+  }
+
+  .show-more__button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #1b1c21;
+    font-family: 'TTLakes-Medium';
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .show-more__button2 {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #1b1c21;
+    font-family: 'TTLakes-Medium';
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .block15__shadow2 {
+    display: none;
+  }
+}
+
+@media (min-width: 1120px) {
+  .block15__title {
+    padding: 16px 32px;
+  }
+
+  .brands-catalog {
+    height: 280px;
+    transition: all ease-in-out 300ms;
+  }
+
+  .swiper.list__hidden {
+    height: 137px;
+  }
+
+  .swiper2.list__hidden2 {
+    height: 120px;
+  }
+
+  .swiper {
+    height: 240px;
+    transition: all ease-in-out 400ms;
+  }
+
+  .swiper2 {
+    height: 480px;
+    transition: all ease-in-out 400ms;
+  }
+
+  .swiper-wrapper {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    margin-left: 16px;
+    gap: 16px 32px;
+  }
+
+  .swiper-wrapper2 {
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 240px 240px 240px 40px;
+    gap: 16px 32px;
+    margin-left: 16px;
+  }
+
+  .swiper-slide.card {
+    margin: 0 32px 8px 0;
+    width: 240px;
+  }
+
+  .card--position {
+    position: relative;
+    top: -124px;
+    left: 278px;
+    width: 240px;
+    margin-right: 21px;
+  }
+
+  .swiper-pagination {
+    display: none;
+  }
+
+  .show-more {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 8px 50px 16px;
+    transition: all ease-in-out 200s;
+  }
+
+  .show-less__icon {
+    margin-right: 16px;
+    transform: rotate(180deg);
+    transition: all ease-in-out 200ms;
+  }
+
+  .show-more__icon {
+    margin-right: 16px;
+    transform: rotate(0);
+    transition: all ease-in-out 200ms;
+  }
+
+  .show-less__icon2 {
+    margin-right: 16px;
+    transform: rotate(180deg);
+    transition: all ease-in-out 200ms;
+  }
+
+  .show-more__icon2 {
+    margin-right: 16px;
+    transform: rotate(0);
+    transition: all ease-in-out 200ms;
+  }
+
+  .show-more__button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #1b1c21;
+    font-family: 'TTLakes-Medium';
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .show-more__button2 {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #1b1c21;
+    font-family: 'TTLakes-Medium';
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .block15__shadow2 {
+    display: none;
+  }
+}
+
+.card2 {
+  display: flex;
+  box-sizing: border-box;
+  width: 240px;
+  height: 160px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block15__shadow2 {
+  height: 168px;
+  position: absolute;
+  width: 100px;
+  right: 0%;
+  top: 16px;
+  z-index: 100;
+  background: linear-gradient(
+    270deg,
+    #f8f8f8 16.84%,
+    rgba(248, 248, 248, 0.01) 100%
+  );
+}
