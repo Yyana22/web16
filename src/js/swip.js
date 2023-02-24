@@ -49,8 +49,8 @@ showButton2.addEventListener('click', function () {
         <img class="card__logo" src="./img/ViewSonic.svg" alt="ViewSonic">
         <img src="./img/go.svg" alt="logo" class="card__go">
         `
-  document.getElementById('slide').appendChild(div12)
-  document.getElementById('slide').appendChild(div22)
+  document.getElementById('slide2').appendChild(div12)
+  document.getElementById('slide2').appendChild(div22)
   if (hiddenParts2.classList.contains('list__hidden2')) {
     showButton2.textContent = 'Показать всё'
   } else {
