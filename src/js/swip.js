@@ -64,6 +64,9 @@ export let mySwiper
 export const slider2 = document.querySelector('.swiper2')
 export let mySwiper2
 
+export const slider3 = document.querySelector('.swiper3')
+export let mySwiper3
+
 function mobileSlider() {
   if (window.innerWidth <= 767 && slider.dataset.mobile == 'false') {
     mySwiper = new Swiper(slider, {
@@ -95,6 +98,21 @@ function mobileSlider() {
       }
     })
     slider2.dataset.mobile = 'true'
+
+    mySwiper3 = new Swiper(slider3, {
+      slidesPerView: 1,
+      spaceBetween: 16,
+      width: 240,
+      height: 72,
+      slideClass: 'card3',
+      pagination: {
+        spaceBetween: 16,
+        loop: true,
+        el: '.swiper-pagination',
+        clickable: true
+      }
+    })
+    slider3.dataset.mobile = 'true'
   }
 
   if (window.innerWidth >= 768) {
@@ -102,6 +120,8 @@ function mobileSlider() {
     mySwiper.destroy()
     slider2.dataset.mobile = 'false'
     mySwiper2.destroy()
+    slider3.dataset.mobile = 'false'
+    mySwiper3.destroy()
   }
 }
 
