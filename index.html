@@ -9,7 +9,7 @@
   <body>
     <section class="burger-menu" id="burger-menu">
       <div class="burger-menu__head">
-        <div class="burger-menu__head-right">
+        <div class="burger-menu__head-left">
           <div id="close-burger" class="burger-menu__head-close">
             <img src="./img/burger-close.svg" alt="close">
           </div>
@@ -58,7 +58,7 @@
     </section>
     <section id="wrapper" class="wrapper">
       <header id="head-opacity" class="header">
-        <div id="head-right" class="header__right">
+        <div id="head-left" class="header__left">
           <div class="header__menu">
             <img id="burger-left" src="./img/burger.svg" alt="menu">
           </div>
@@ -67,7 +67,7 @@
             <img src="./img/Group.svg" alt="logo">
           </div>
         </div>
-        <div class="header__left">
+        <div id="head-right" class="header__right">
           <div class="header__call">
             <img src="./img/call.svg" alt="call">
           </div>
@@ -113,11 +113,11 @@
           <div class="servise__head-right">
             <div class="repair">
               <p>Оставить заявку</p>
-              <img src="./img/repair.svg" alt="repair">
+              <img id="burger-right1" src="./img/repair.svg" alt="repair">
             </div>
             <div class="status">
-              <p>Оставить заявку</p>
-              <img src="./img/checkstatus.svg" alt="status">
+              <p>Статус ремонта</p>
+              <img id="burger-right2" src="./img/checkstatus.svg" alt="status">
             </div>
           </div>
         </div>
@@ -416,6 +416,56 @@
         <div class="foot-block">Информация, размещенная на данной странице, не является публичной
           офертой</div>
       </footer>
+    </section>
+    <section class="burger-menu-right1" id="burger-menu-right1">
+      <div class="burger-menu-right1__head">
+          <div id="close-burger2">
+            <img src="./img/burger-close.svg" alt="close">
+          </div>
+          <div class="burger-menu-right1__form">
+            <div class="form__head">
+              <div class="title__border"></div>
+              <div class="title__form">Обратная связь</div>
+            </div>
+            <form>
+                <input type="text" class="name-form" id="name-form" placeholder="Имя">
+                <input type="tel" class="number-form" id="number-form" placeholder="Телефон">
+                <input type="email" class="email-form" id="email-form" placeholder="Электронная почта">
+                <input type="tel" class="number-form" id="number-form" placeholder="Телефон">
+                <textarea name="comment" id="comment" cols="30" rows="7" placeholder="Сообщение"></textarea>
+                <label class="warning-form">Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></label>
+                <div>
+                  <button class="btn-form">
+                    Отправить
+                    <img src="./img/dropdown.svg" alt="dropdown">
+                  </button>
+                </div>
+            </form>
+          </div>
+      </div>
+    </section>
+    <section class="burger-menu-right2" id="burger-menu-right2">
+      <div class="burger-menu-right2__head">
+          <div id="close-burger3">
+            <img src="./img/burger-close.svg" alt="close">
+          </div>
+          <div class="burger-menu-right2__form">
+            <div class="form__head">
+              <div class="title__border"></div>
+              <div class="title__form">Заказать звонок</div>
+            </div>
+            <form>
+                <input type="tel" class="number-form" id="number-form" placeholder="Телефон">
+                <label class="warning-form">Нажимая “отправить”, вы даете согласие на <span>обработку персональных данных</span> и соглашаетесь с нашей <span>политикой конфиденциальности</span></label>
+                <div>
+                  <button class="btn-form">
+                    Отправить
+                    <img src="./img/dropdown.svg" alt="dropdown">
+                  </button>
+                </div>
+            </form>
+          </div>
+      </div>
     </section>
   <script type="text/javascript" src="./js/bundle.js"></script></body>
 </html>
