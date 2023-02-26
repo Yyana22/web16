@@ -42,12 +42,12 @@ showButton2.addEventListener('click', function () {
   hiddenParts2.classList.toggle('list__hidden2')
   showLess2.classList.toggle('show-more__icon2')
   div12.innerHTML = `
-        <img class="card__logo" src="./img/samsung.svg" alt="Samsung">
-        <img src="./img/go.svg" alt="logo" class="card__go">
+  <p class="card__text">Ремонт ноутбуков</p>
+  <img src="./img/go.svg" alt="logo" class="card__go" />
         `
   div22.innerHTML = `
-        <img class="card__logo" src="./img/ViewSonic.svg" alt="ViewSonic">
-        <img src="./img/go.svg" alt="logo" class="card__go">
+  <p class="card__text">Ремонт ноутбуков</p>
+  <img src="./img/go.svg" alt="logo" class="card__go" />
         `
   document.getElementById('slide2').appendChild(div12)
   document.getElementById('slide2').appendChild(div22)
