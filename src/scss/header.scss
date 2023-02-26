@@ -11,18 +11,18 @@
 .header :not(:last-child) {
   margin-right: 20px;
 }
-.header__right {
-  display: flex;
-  align-items: center;
-}
-.header__right :not(:last-child) {
-  margin-right: 20px;
-}
 .header__left {
   display: flex;
   align-items: center;
 }
 .header__left :not(:last-child) {
+  margin-right: 20px;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__right :not(:last-child) {
   margin-right: 20px;
 }
 .header__call {

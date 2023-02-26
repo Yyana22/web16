@@ -1,5 +1,6 @@
 import '../scss/style.scss'
-import './rightBurger.js'
+import './rightMenu'
+import './leftBurger.js'
 import './swiper-bundle.min.js'
 import './swip.js'
 console.log('Works!')
